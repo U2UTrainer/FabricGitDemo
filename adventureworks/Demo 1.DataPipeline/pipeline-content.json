@@ -1,0 +1,26 @@
+{
+  "properties": {
+    "activities": [
+      {
+        "name": "Office365Email1",
+        "type": "Office365Email",
+        "dependsOn": [],
+        "policy": {
+          "timeout": "0.12:00:00",
+          "retry": 0,
+          "retryIntervalInSeconds": 30,
+          "secureOutput": false,
+          "secureInput": false
+        },
+        "typeProperties": {
+          "to": "jurgen@u2u.be",
+          "subject": "test",
+          "body": "<p>test</p>"
+        },
+        "externalReferences": {
+          "connection": "4422724f-8e97-4c35-9715-2e79309b8bf6"
+        }
+      }
+    ]
+  }
+}
