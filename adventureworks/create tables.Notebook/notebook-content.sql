@@ -26,7 +26,8 @@
 -- Type here in the cell editor to add code!
 create TABLE customer
 (
-    id INT
+    id INT,
+    Name STRING
 )
 
 
