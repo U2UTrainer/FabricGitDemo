@@ -14,7 +14,7 @@
         },
         "typeProperties": {
           "to": "jurgen@u2u.be",
-          "subject": "test",
+          "subject": "Demo Subject",
           "body": "<p>test</p>"
         },
         "externalReferences": {
