@@ -28,7 +28,8 @@ create TABLE customer
 (
     id INT,
     Name STRING,
-    Country STRING
+    Country STRING,
+    EmailAddress STRING
 )
 
 
