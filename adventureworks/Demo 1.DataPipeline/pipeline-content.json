@@ -20,7 +20,33 @@
         "externalReferences": {
           "connection": "4422724f-8e97-4c35-9715-2e79309b8bf6"
         }
+      },
+      {
+        "name": "Set variable1",
+        "type": "SetVariable",
+        "dependsOn": [
+          {
+            "activity": "Office365Email1",
+            "dependencyConditions": [
+              "Succeeded"
+            ]
+          }
+        ],
+        "policy": {
+          "secureOutput": false,
+          "secureInput": false
+        },
+        "typeProperties": {
+          "variableName": "SizeLimit",
+          "value": "XL"
+        }
       }
-    ]
+    ],
+    "variables": {
+      "SizeLimit": {
+        "type": "String",
+        "defaultValue": "L"
+      }
+    }
   }
 }
