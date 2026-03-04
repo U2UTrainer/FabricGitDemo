@@ -39,3 +39,14 @@ create TABLE customer
 -- META   "language": "sparksql",
 -- META   "language_group": "synapse_pyspark"
 -- META }
+
+-- CELL ********************
+
+INSERT into customer VALUES(1,'Jefke Jansens','Belgium','jefke@u2u.be')
+
+-- METADATA ********************
+
+-- META {
+-- META   "language": "sparksql",
+-- META   "language_group": "synapse_pyspark"
+-- META }
