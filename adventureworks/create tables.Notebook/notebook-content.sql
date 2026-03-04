@@ -42,7 +42,7 @@ create TABLE customer
 
 -- CELL ********************
 
-INSERT into customer VALUES(1,'Jefke Jansens','Belgium','jefke@u2u.be')
+INSERT into customer VALUES(1,'Jefke Jansens','France','jefke@u2u.be')
 
 -- METADATA ********************
 
